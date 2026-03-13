@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f7f6f6, #0a0a01);
+    color: rgb(65, 4, 4);
+}
+
+.container {
+    width: 65%;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #f1f1f1;
+    color: rgb(163, 14, 14);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #eb0f0f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#historyList span {
+    background: #f50606;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    padding: 9px 95px;
+    margin-bottom: 6px;
+    border-left: 4px solid #f50606; 
+    font-size: 14px;
+}
+
+.console {
+    margin-top: 20px;
+    background: #f1f1f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#consoleOutput {
+    background: #a19f9d;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 13px;
+    min-height: 90px;
+}
+
+.log-line {
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    border-left: 4px solid #f50606;  
+}
